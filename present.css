@@ -33,7 +33,6 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	width: 100%;
 	font-size: 16pt;
 	background-color: rgb(96, 169, 97);
 	height: 52px;
@@ -128,11 +127,8 @@ footer {
 }
 /* Téléphone */
 @media screen and (max-width: 640px) {
-	.page {
-		width: 100%;
-	}
 	.container {
-		width: 100%;
+		width: 80%;
 		flex-direction: column;
 		flex-wrap: nowrap;
 		justify-content: center;
