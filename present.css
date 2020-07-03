@@ -1,0 +1,143 @@
+body {
+	color: rgb(45, 51, 49);
+}
+a:any-link {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(192, 85, 85);
+}
+.page {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+/* entête de page */
+header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: rgb(96, 169, 97);
+}
+.imgtete {
+	width: 100%;
+}
+.imgtete img {
+	width: 100%;
+	height: auto;
+}
+.navbar {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100%;
+	font-size: 16pt;
+	background-color: rgb(96, 169, 97);
+	height: 52px;
+}
+.navbar a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: black;
+	text-decoration: none;
+}
+.navul {
+	list-style: none;
+	display: flex;
+	margin-top: 12px;
+	padding-left: 5px;
+}
+.navli {
+	list-style: none;
+	margin: 0px 20px 0px 20px;
+}
+.navli:hover {
+	text-decoration-line: underline;
+}
+/* Corps de la page */
+main {
+	width: 100%;
+	display: block;
+	color: rgb(45, 51, 49);
+}
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 10px;
+}
+.card {
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	width: 25%;
+	text-align: center;
+	border: grey 1px solid;
+	border-radius: 5px;
+	box-shadow: 5px 5px 2px 1px rgba(96, 169, 97, 0.2);
+}
+.zncarre {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 12px;
+	background-color: rgb(206, 224, 159);
+	border: 3px solid rgb(111, 174, 33);
+}
+.zntext {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+/* Pied de page */
+footer {
+	display: block;
+}
+.footerlogos img {
+	margin: 10px;
+}
+.Searchbar {
+	background-color: rgb(255, 51, 102);
+	width: 100%;
+	height: 60px;
+}
+.SearchForm {
+	padding-top: 15px;
+	padding-left: 10px;
+}
+.SearchForm input {
+	width: 60%;
+}
+.SearchForm button {
+	width: 30px;
+	text-align: left;
+	position: relative;
+	right: -20px;
+}
+.SearchForm button:hover {
+	cursor: pointer;
+}
+.SearchForm i {
+	color: rgb(255, 51, 102);
+}
+/* Téléphone */
+@media screen and (max-width: 640px) {
+	.page {
+		width: 100%;
+	}
+	.container {
+		width: 100%;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+	}
+	.card {
+		width: 100%;
+	}
+}
