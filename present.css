@@ -11,7 +11,7 @@ a:hover {
 .page {
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	justify-content: space-around;
 }
 /* entête de page */
